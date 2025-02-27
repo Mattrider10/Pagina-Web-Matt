@@ -1,0 +1,227 @@
+/*body{
+   background:linear-gradient(0deg, rgba(253, 254, 254 ) 0%, rgb(234, 237, 237) 0%, rgb(28, 40, 51) 100%);
+background-size: cover;
+}*/
+
+
+
+
+h1{
+    font-size: 90px;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ nav{
+    height: 50px;
+    color: black;
+ }
+ 
+ 
+ button{
+    height: 50px;
+    width: 100px;
+    background-color:black;
+    border-color: black;
+    color:aliceblue;
+    border-width: 0px;
+ }
+ 
+ 
+ #Mattrider{
+ color: aliceblue;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ #fotos{
+    background-color: gray;
+ }
+ 
+ 
+ #eventos{
+    background-color: gray;
+ }
+ 
+ 
+ #tienda{
+    background-color: gray;
+ }
+ 
+ 
+ #contacto{
+    background-color: gray;
+ }
+ 
+ 
+ 
+ 
+ #comp{
+    background-color:#99CD83;
+ }
+ 
+ 
+ #foto{
+    background-color: #F9F2D8  ;
+ }
+ 
+ 
+ #store{
+    background-color: #ffffff;
+ }
+ 
+ 
+ #contact{
+    background:linear-gradient(0deg, rgba(185, 183, 180 ) 0%, rgb(234, 237, 237) 0%, rgb(28, 40, 51) 100%);
+    background-size: cover;
+ }
+ 
+ 
+ #start{
+    background-color: #F5B041;
+ }
+ 
+ 
+ 
+ 
+ h5{
+    font-size: small;
+    color: azure;
+ }
+ h2{
+    font-size: xx-large;
+    color: azure;
+ }
+ #ig{
+    color:#000000;
+    font-size: x-large;
+   
+ }
+ 
+ 
+ #mail{
+    color: #000000;
+    font-size: x-large;
+ }
+ 
+ 
+ #info{
+    color:#000000;
+    font-size:x-large;
+ }
+ 
+ 
+ #eventstitle{
+    font-size: 60px;
+    color: azure;
+ }
+ 
+ 
+ #events{
+ color: azure;
+ font-size: 45px;
+ }
+ 
+ 
+ #fototitulo{
+    color: #F5B041;
+ }
+ 
+ #Articulo{
+   border-color: #000000;
+   border-width: 2px;
+   border-style:  solid;
+ }
+
+ #articlename{
+   padding-left: 80px;
+   padding-left: 80px;
+ }
+  
+ #Store{
+   color: #000000;
+
+ }
+ 
+ /* Estilo del Carrsusel comienza */
+ 
+ .sliderbox{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    box-sizing: border-box;
+ }
+ 
+ 
+ .sliderbox ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+    margin: 0;
+ }
+ 
+ 
+ .sliderbox li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0 ;
+ }
+ 
+ 
+ .sliderbox img{
+    width: 100%;
+    height: auto;
+    /*max-width: 600px;*/
+    margin: 0 ;
+    display: block;
+ }
+ 
+ 
+ @keyframes slide{
+    0%{
+        margin-left: 0;
+    }
+    20%{
+        margin-left: 0;
+    }
+    25%{
+        margin-left: -50%;
+    }
+    45%{
+        margin-left: -50%;
+    }
+    50%{
+        margin-left: -100;
+    }
+    70%{
+        margin-left: -100%;
+    }
+    75%{
+        margin-left: -150;
+    }
+    100%{
+        margin-left: -150%;
+    }
+    
+ 
+ 
+ }
+ 
+ 
+ @media (max-widt:991px){
+    body{
+        padding: 30px;
+    }
+    .sliderbox{
+        width: 100%;
+    }
+ }
